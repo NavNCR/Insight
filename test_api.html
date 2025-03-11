@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR API Test</title>
+</head>
+<body>
+    <h1>Test OCR and Text-to-Speech API</h1>
+    <form action="http://127.0.0.1:5000/ocr" method="post" enctype="multipart/form-data">
+        <label for="image">Select JPEG image:</label>
+        <input type="file" id="image" name="image" accept=".jpg,.jpeg" required>
+        <br><br>
+        <button type="submit">Convert to Speech</button>
+    </form>
+</body>
+</html>
